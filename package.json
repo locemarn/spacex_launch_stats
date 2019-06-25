@@ -1,0 +1,31 @@
+{
+  "name": "spacex_launch_stats",
+  "version": "1.0.0",
+  "description": "\"App that list SpaceX launch missions\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locemarn/spacex_launch_stats.git"
+  },
+  "author": "Marcelo Nogueira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/locemarn/spacex_launch_stats/issues"
+  },
+  "homepage": "https://github.com/locemarn/spacex_launch_stats#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
